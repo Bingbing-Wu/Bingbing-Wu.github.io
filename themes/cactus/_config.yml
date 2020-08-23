@@ -97,7 +97,7 @@ favicon:
     url: /images/favicon.ico
     gravatar: false
   android:
-    url: /images/1.png
+    url: /images/favicon-192x192.png
     gravatar: false
   apple:
     url: /images/apple-touch-icon.png
