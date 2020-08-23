@@ -10,7 +10,7 @@ subnav:
   weibo: "#"
   rss: "#"
   zhihu: "#"
-  #qq: "#"
+  qq: "#"
   #weixin: "#"
   #jianshu: "#"
   #douban: "#"
@@ -116,7 +116,7 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  friends: '友情链接'
   aboutme: '关于我'
 
 friends:
