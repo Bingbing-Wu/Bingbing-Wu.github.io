@@ -108,7 +108,7 @@ gitalk:
   owner: findtheonlyway    #github用户名
   admin: erbiduo    #可以初始化评论issue的github账户名称
   distractionFreeMode: true
-  
+
   ## 版权声明
 declare_type: 1
 licensee_url: https://creativecommons.org/licenses/by-nc-sa/4.0/          # 当前应用的版权协议地址。

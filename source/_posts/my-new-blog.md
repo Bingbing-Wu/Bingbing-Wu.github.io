@@ -1,6 +1,6 @@
-declare:true;
 ---
 title: 计算机网络相关知识
+abbrlink: 34346
 ---
 # 后退N帧协议（GBN）
 1. *克服了停等协议的缺点
