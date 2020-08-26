@@ -70,7 +70,7 @@ google_analytics: ''
 favicon: /img/skull.png
 
 #你的头像url
-avatar: /img/Myself.png
+avatar: /Myself.png
 
 #是否开启分享
 share_jia: true
