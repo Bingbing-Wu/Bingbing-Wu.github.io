@@ -4,13 +4,14 @@ menu:
   主页: /
   分类: /categories
   归档: /archives
+  相册: /photos/index.html
   
 
 # SubNav
 subnav:
   github: "https://bingbing-wu.github.io/"
   weibo: "https://weibo.com/u/5440792147/home?wvr=5"
-  rss: "#"
+  rss: "/atom.xml"
   zhihu: "#"
   #qq: "#"
   #weixin: "#"
