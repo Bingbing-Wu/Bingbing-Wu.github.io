@@ -105,12 +105,9 @@ pagination_dir: page
 include:
 exclude:
 ignore:
-
-Extensions
-Plugins: https://hexo.io/plugins/
-Themes: https://hexo.io/themes/
-# RSS 订阅
-Plugins: hexo-generator-feed
+# Extensions
+# Plugins: https://hexo.io/plugins/
+# Themes: https://hexo.io/themes/
 theme: yilia
 
 # Deployment
