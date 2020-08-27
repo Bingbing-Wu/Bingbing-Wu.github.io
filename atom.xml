@@ -6,7 +6,7 @@
   <link href="bingbing-wu.github.io/atom.xml" rel="self"/>
   
   <link href="bingbing-wu.github.io/"/>
-  <updated>2020-08-27T08:10:43.279Z</updated>
+  <updated>2020-08-27T12:48:01.717Z</updated>
   <id>bingbing-wu.github.io/</id>
   
   <author>
@@ -17,13 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>计算机网络知识脉络</title>
+    <link href="bingbing-wu.github.io/2020/08/27/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E8%84%89%E7%BB%9C/"/>
+    <id>bingbing-wu.github.io/2020/08/27/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E8%84%89%E7%BB%9C/</id>
+    <published>2020-08-27T12:21:17.000Z</published>
+    <updated>2020-08-27T12:48:01.717Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="计算机网络-TCP-IP协议栈"><a href="#计算机网络-TCP-IP协议栈" class="headerlink" title="计算机网络-TCP/IP协议栈"></a>计算机网络-TCP/IP协议栈</h1><h2 id="计算机网络的分层"><a href="#计算机网络的分层" class="headerlink" title="计算机网络的分层"></a>计算机网络的分层</h2><ol><li>应用层</li><li>传输层</li><li>网络层</li><li>数据链路层</li><li>物理层</li></ol><h3 id="物理层"><a href="#物理层" class="headerlink" title="物理层"></a>物理层</h3><ol><li>主要是一些物理设备等等</li></ol><h3 id="数据链路层"><a href="#数据链路层" class="headerlink" title="数据链路层"></a>数据链路层</h3><ol><li>以太网的格式</li><li>MTU 最大传输单元</li><li>ARP协议 (定时器和逆定时器)<br>ARP的报文形式</li></ol><h3 id="网络层"><a href="#网络层" class="headerlink" title="网络层"></a>网络层</h3><ol><li>掌握IP的首部形式<ul><li>16位分偏标识</li><li>DF不分篇偏标识</li><li>MF更多分片标识</li><li>13位片偏移</li></ul></li><li>掌握IP分片<ul><li>如何分辨</li><li>如何判断到达</li></ul></li><li>IP的选路</li><li>掌握ICMP协议<ul><li>报文格式</li><li>报文的两大分类：查询和差错</li><li>2种查询报文和5种存错报文<h3 id="传输层"><a href="#传输层" class="headerlink" title="传输层"></a>传输层</h3></li></ul></li><li>掌握UDP协议<ul><li>特点和首部各个字段 UDP无连接不可靠</li></ul></li><li>掌握TCP协议<ul><li>特点、首部字段和可靠机制</li><li>TCP连接控制：三次握手、四次握手、同时打开、同时关闭、半关闭</li></ul></li><li>TCP超时重传机制（四个定时器）</li></ol><h3 id="应用层"><a href="#应用层" class="headerlink" title="应用层"></a>应用层</h3><ol><li>掌握DNS协议<ul><li>DNS协议的命名空间</li><li>DNS指针查询（反向查找和逆向解析）基本原理</li><li>DNS缓存的一些概念</li></ul></li><li>掌握FTP协议<ul><li>两条连接：控制连接和数据连接</li><li>两种工作方式：PASV和PORT</li><li>各种FTP指令和响应码</li><li>FTP断点续传，匿名FTP</li></ul></li><li>Http协议<ul><li>报文格式：请求报文和响应报文</li><li>头字段：请求头子段和响应头字段</li><li>Http的状态码:200 303 401 404····</li></ul></li><li>Https协议 (多了SSL)<ul><li>Http的详细握手过程</li><li>摘要算法、数字签名、数字证书的原理和过程</li></ul></li></ol><h4 id="推荐学习书籍"><a href="#推荐学习书籍" class="headerlink" title="推荐学习书籍"></a>推荐学习书籍</h4><ul><li>计算机网络（自顶向下方法） 原书第7版</li><li>TCP/IP详解 卷1：协议  原书第2版</li><li>计算机网络 第7版 谢尔希主编</li></ul><h3 id="推荐学习视频"><a href="#推荐学习视频" class="headerlink" title="推荐学习视频"></a>推荐学习视频</h3><ul><li>国防科技大学 计算机网络精品课程</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;计算机网络-TCP-IP协议栈&quot;&gt;&lt;a href=&quot;#计算机网络-TCP-IP协议栈&quot; class=&quot;headerlink&quot; title=&quot;计算机网络-TCP/IP协议栈&quot;&gt;&lt;/a&gt;计算机网络-TCP/IP协议栈&lt;/h1&gt;&lt;h2 id=&quot;计算机网络的分层&quot;&gt;&lt;a </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>计算机网络相关知识-数据链路层传输</title>
     <link href="bingbing-wu.github.io/2020/08/26/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86-%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E4%BC%A0%E8%BE%93/"/>
     <id>bingbing-wu.github.io/2020/08/26/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86-%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E4%BC%A0%E8%BE%93/</id>
     <published>2020-08-26T08:09:49.707Z</published>
-    <updated>2020-08-27T08:10:43.279Z</updated>
+    <updated>2020-08-27T12:48:05.168Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="后退N帧协议（GBN）"><a href="#后退N帧协议（GBN）" class="headerlink" title="后退N帧协议（GBN）"></a>后退N帧协议（GBN）</h1><ol><li>克服了停等协议的缺点</li><li>发送方发送多个帧，接收方返回多个帧</li><li>后退N帧协议类似于流水线技术。必须增加序号范围，发送方需要缓存多个分组。</li></ol><h2 id="后退N帧协议中的滑动窗口"><a href="#后退N帧协议中的滑动窗口" class="headerlink" title="后退N帧协议中的滑动窗口"></a>后退N帧协议中的滑动窗口</h2><ol><li>存在的帧类型<ul><li>发完被确认的</li><li>已经发送但等待确认的</li><li>还能发送的，存在窗口总的</li><li>还不能发送的，在窗口外的</li></ul></li><li>接收窗口<ul><li>接收方维持一段连续的允许接收帧的序号。</li></ul></li><li>GBN必须响应的三件事<ul><li>上层的调用</li><li>收到了一个ACK 对n号帧采用累积确认的方式，表明接收方已经收到n号帧和它之前的全部帧。</li><li>超时事件</li></ul></li><li>GBN要做的事<br>如果正确收到n号帧，并且按序，那么接收方为n帧发送一个ACK,并将改帧中的数据交付给上层（网络层）</li><li>滑动窗口长度<br>若采用n个比特对帧编号，那么发送窗口的尺寸Wr应满足，若发送窗口过大，就会使得接收方无法区别新帧和旧帧。</li><li>GBN协议重点总结<ul><li>累积确认（偶尔捎带确认）</li><li>接收方只按顺序接收帧，不按顺序的丢弃</li><li>确认序列号最大的、按序到达的帧</li><li>发送窗口最大为2的n方-1，接收窗口大小为1。</li></ul></li></ol><h1 id="选择重传协议-SR"><a href="#选择重传协议-SR" class="headerlink" title="选择重传协议(SR)"></a>选择重传协议(SR)</h1><ol><li>累积确认，会导致批量重传。</li><li>解决办法：设置单个确认，加大接收窗口，设置缓存机制，缓存乱序到达的帧。</li><li>SR发送方必须响应的三件事<ul><li>上层的调用 (SR发送方检查下一个可用于该帧的序号。假如序号位于发送窗口内，则发送数据，否则缓存数据，或者返回给上一层之后再传输）</li><li>收到了一个ACK</li><li>超时事件（每个帧都有自己的定时器，一个超时事件发生后只能重传一个帧）</li></ul></li><li>SR接收方要做的事<br>对于窗口内的帧，来者不拒。</li><li>选择重传协议中的窗口<br>对于选择重传协议来说，发送窗口最好等于接受窗口。（大了会溢出，小了没意义）<br>WTmax=WRmax=2的(n-1)方。</li><li>SR协议重点总结<ul><li>对数据帧逐一确认，收一个确认一个</li><li>只重传出错的帧</li><li>接收方有缓存（WTmax=WRmax= 2n-1方）</li></ul></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="后退N帧协议（GBN）"><a href="#后退N帧协议（GBN）" class="headerlink" title="后退N帧协议（GBN）"></a>后退N帧协议（GBN）</h1><ol><li>克服了停等协议的缺点</li><li>发送方发送多个帧，接收方返回多个帧</li><li>后退N帧协议类似于流水线技术。必须增加序号范围，发送方需要缓存多个分组。</li></ol><h2 id="后退N帧协议中的滑动窗口"><a href="#后退N帧协议中的滑动窗口" class="headerlink" title="后退N帧协议中的滑动窗口"></a>后退N帧协议中的滑动窗口</h2><ol><li>存在的帧类型<ul><li>发完被确认的</li><li>已经发送但等待确认的</li><li>还能发送的，存在窗口总的</li><li>还不能发送的，在窗口外的</li></ul></li><li>接收窗口<ul><li>接收方维持一段连续的允许接收帧的序号。</li></ul></li><li>GBN必须响应的三件事<ul><li>上层的调用</li><li>收到了一个ACK 对n号帧采用累积确认的方式，表明接收方已经收到n号帧和它之前的全部帧。</li><li>超时事件hexo</li></ul></li><li>GBN要做的事<br>如果正确收到n号帧，并且按序，那么接收方为n帧发送一个ACK,并将改帧中的数据交付给上层（网络层）</li><li>滑动窗口长度<br>若采用n个比特对帧编号，那么发送窗口的尺寸Wr应满足，若发送窗口过大，就会使得接收方无法区别新帧和旧帧。</li><li>GBN协议重点总结<ul><li>累积确认（偶尔捎带确认）</li><li>接收方只按顺序接收帧，不按顺序的丢弃</li><li>确认序列号最大的、按序到达的帧</li><li>发送窗口最大为2的n方-1，接收窗口大小为1。</li></ul></li></ol><h1 id="选择重传协议-SR"><a href="#选择重传协议-SR" class="headerlink" title="选择重传协议(SR)"></a>选择重传协议(SR)</h1><ol><li>累积确认，会导致批量重传。</li><li>解决办法：设置单个确认，加大接收窗口，设置缓存机制，缓存乱序到达的帧。</li><li>SR发送方必须响应的三件事<ul><li>上层的调用 (SR发送方检查下一个可用于该帧的序号。假如序号位于发送窗口内，则发送数据，否则缓存数据，或者返回给上一层之后再传输）</li><li>收到了一个ACK</li><li>超时事件（每个帧都有自己的定时器，一个超时事件发生后只能重传一个帧）</li></ul></li><li>SR接收方要做的事<br>对于窗口内的帧，来者不拒。</li><li>选择重传协议中的窗口<br>对于选择重传协议来说，发送窗口最好等于接受窗口。（大了会溢出，小了没意义）<br>WTmax=WRmax=2的(n-1)方。</li><li>SR协议重点总结<ul><li>对数据帧逐一确认，收一个确认一个</li><li>只重传出错的帧</li><li>接收方有缓存（WTmax=WRmax= 2n-1方）</li></ul></li></ol>]]></content>
     
     
       
