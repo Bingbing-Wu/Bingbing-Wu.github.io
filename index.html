@@ -4,14 +4,16 @@
   <meta charset="utf-8">
   
   <meta name="renderer" content="webkit">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="http://yoursite.com">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="dns-prefetch" href="bingbing-wu.github.io">
   <title>BingbingWu-Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="my first blog">
+<meta property="og:type" content="website">
 <meta property="og:title" content="BingbingWu-Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="bingbing-wu.github.io/index.html">
 <meta property="og:site_name" content="BingbingWu-Blog">
+<meta property="og:description" content="my first blog">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Wubingbing">
 <meta name="twitter:card" content="summary">
@@ -19,7 +21,7 @@
     <link rel="alternative" href="/atom.xml" title="BingbingWu-Blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/img/skull.png">
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
   <style type="text/css">
@@ -39,57 +41,67 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #4d4d4d"></div>
+<div class="overlay" style="background: #4d4d4d">
+</div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/img/Myself.png" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/"></a></h1>
+			<h1 class="header-author"><a href="/"></a></h1>
 		</hgroup>
 		
 
 		<nav class="header-menu">
 			<ul>
 			
-				<li><a href="/">主页</a></li>
-	        
-				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
-	        
+		<li><a href="/">主页</a></li>
+		
+		<li><a href="/categories">分类</a></li>
+		
+		<li><a href="/archives">归档</a></li>
+		
+		<li><a href="/photos/index.html">相册</a></li>
+		
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">
     		
-    			
-    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
-    			
-            
-    			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
-    			
-            
-    			
-    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
-    			
-            
+		
+		<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
+		
+		
+		
+		<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友情链接</a>
+		
+		
+		
+		<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
+		
+		
 		</nav>
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
-		        
+		<a class="github" target="_blank" href="https://bingbing-wu.github.io/" title="github" rel="external nofollow noopener noreferrer"><i class="icon-github"></i></a>
+		
+		<a class="weibo" target="_blank" href="https://weibo.com/u/5440792147/home?wvr=5" title="weibo" rel="external nofollow noopener noreferrer"><i class="icon-weibo"></i></a>
+		
+		<a class="rss" target="_blank" href="/atom.xml" title="rss"><i class="icon-rss"></i></a>
+		
+		<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+		
 			</div>
+			<!-- 音乐播放插件 -->
+	<div style="margin-top: 30px;">
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="240" height="52" src="//music.163.com/outchain/player?type=2&id=2188235&auto=1&height=32"></iframe>
+	</div>
 		</nav>
 	</header>		
 </div>
 
+	
     </div>
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       
@@ -101,7 +113,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="/img/Myself.png" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author"></h1>
@@ -113,16 +125,20 @@
 			
 				
 			
+				
+			
+				
+			
 			
 			
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+						<a class="github" target="_blank" href="https://bingbing-wu.github.io/" title="github" rel="external nofollow noopener noreferrer"><i class="icon-github"></i></a>
 			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+						<a class="weibo" target="_blank" href="https://weibo.com/u/5440792147/home?wvr=5" title="weibo" rel="external nofollow noopener noreferrer"><i class="icon-weibo"></i></a>
 			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
+						<a class="rss" target="_blank" href="/atom.xml" title="rss"><i class="icon-rss"></i></a>
 			        
 						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
 			        
@@ -130,12 +146,16 @@
 			</nav>
 
 			<nav class="header-menu js-header-menu">
-				<ul style="width: 50%">
+				<ul style="width: 70%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 25%"><a href="/categories">分类</a></li>
+		        
+					<li style="width: 25%"><a href="/archives">归档</a></li>
+		        
+					<li style="width: 25%"><a href="/photos/index.html">相册</a></li>
 		        
 				</ul>
 			</nav>
@@ -147,63 +167,111 @@
       <div id="wrapper" class="body-wrap">
         <div class="menu-l">
           <div class="canvas-wrap">
-            <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
+            <canvas data-colors="#eaeaea" data-sectionheight="100" data-contentid="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-计算机网络相关知识-数据链路传输" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
-      <header class="article-header">
-        
+      <header class=" article-header">
+  
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/08/23/hello-world/">Hello World</a>
+      <a class="article-title" href="/2020/08/26/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86-%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E4%BC%A0%E8%BE%93/">计算机网络相关知识-数据链路层传输</a>
     </h1>
   
 
-        
-        <a href="/2020/08/23/hello-world/" class="archive-article-date">
-  	<time datetime="2020-08-23T02:35:54.177Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-23</time>
+  
+  <a href="/2020/08/26/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86-%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E4%BC%A0%E8%BE%93/" class="archive-article-date">
+  	<time datetime="2020-08-26T08:09:49.707Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-26</time>
 </a>
-        
-      </header>
+  <!-- 需要添加的位置 -->
+  <!-- 开始添加字数统计-->
+  
+  <!-- 添加完成 -->
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <h1 id="后退N帧协议（GBN）"><a href="#后退N帧协议（GBN）" class="headerlink" title="后退N帧协议（GBN）"></a>后退N帧协议（GBN）</h1><ol>
+<li>克服了停等协议的缺点</li>
+<li>发送方发送多个帧，接收方返回多个帧</li>
+<li>后退N帧协议类似于流水线技术。必须增加序号范围，发送方需要缓存多个分组。</li>
+</ol>
+<h2 id="后退N帧协议中的滑动窗口"><a href="#后退N帧协议中的滑动窗口" class="headerlink" title="后退N帧协议中的滑动窗口"></a>后退N帧协议中的滑动窗口</h2><ol>
+<li>存在的帧类型<ul>
+<li>发完被确认的</li>
+<li>已经发送但等待确认的</li>
+<li>还能发送的，存在窗口总的</li>
+<li>还不能发送的，在窗口外的</li>
+</ul>
+</li>
+<li>接收窗口<ul>
+<li>接收方维持一段连续的允许接收帧的序号。</li>
+</ul>
+</li>
+<li>GBN必须响应的三件事<ul>
+<li>上层的调用</li>
+<li>收到了一个ACK 对n号帧采用累积确认的方式，表明接收方已经收到n号帧和它之前的全部帧。</li>
+<li>超时事件</li>
+</ul>
+</li>
+<li>GBN要做的事<br>如果正确收到n号帧，并且按序，那么接收方为n帧发送一个ACK,并将改帧中的数据交付给上层（网络层）</li>
+<li>滑动窗口长度<br>若采用n个比特对帧编号，那么发送窗口的尺寸Wr应满足，若发送窗口过大，就会使得接收方无法区别新帧和旧帧。</li>
+<li>GBN协议重点总结<ul>
+<li>累积确认（偶尔捎带确认）</li>
+<li>接收方只按顺序接收帧，不按顺序的丢弃</li>
+<li>确认序列号最大的、按序到达的帧</li>
+<li>发送窗口最大为2的n方-1，接收窗口大小为1。</li>
+</ul>
+</li>
+</ol>
+<h1 id="选择重传协议-SR"><a href="#选择重传协议-SR" class="headerlink" title="选择重传协议(SR)"></a>选择重传协议(SR)</h1><ol>
+<li>累积确认，会导致批量重传。</li>
+<li>解决办法：设置单个确认，加大接收窗口，设置缓存机制，缓存乱序到达的帧。</li>
+<li>SR发送方必须响应的三件事<ul>
+<li>上层的调用 (SR发送方检查下一个可用于该帧的序号。假如序号位于发送窗口内，则发送数据，否则缓存数据，或者返回给上一层之后再传输）</li>
+<li>收到了一个ACK</li>
+<li>超时事件（每个帧都有自己的定时器，一个超时事件发生后只能重传一个帧）</li>
+</ul>
+</li>
+<li>SR接收方要做的事<br>对于窗口内的帧，来者不拒。</li>
+<li>选择重传协议中的窗口<br>对于选择重传协议来说，发送窗口最好等于接受窗口。（大了会溢出，小了没意义）<br>WTmax=WRmax=2的(n-1)方。</li>
+<li>SR协议重点总结<ul>
+<li>对数据帧逐一确认，收一个确认一个</li>
+<li>只重传出错的帧</li>
+<li>接收方有缓存（WTmax=WRmax= 2n-1方）</li>
+</ul>
+</li>
+</ol>
+<p>![alt tupian] (<a target="_blank" rel="external nofollow noopener noreferrer" href="http://static.runoob.com/images/runoob-logo.png">http://static.runoob.com/images/runoob-logo.png</a>)</p>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+    
+    <!-- 此处添加版权信息 -->
+    < 
+  <div class="declare" hidden="hidden"></div>
+  
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+  
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+    
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2020/08/26/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86-%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E4%BC%A0%E8%BE%93/">展开全文 >></a>
+    </p>
+    
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/08/23/hello-world/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
+    
+    <div class="clearfix"></div>
+  </div>
   </div>
 </article>
 
@@ -225,6 +293,156 @@
 
 
 
+  
+    <article id="post-web前端进阶之路" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class=" article-header">
+  
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/08/23/web%E5%89%8D%E7%AB%AF%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%B7%AF/">Web前端进阶之路</a>
+    </h1>
+  
+
+  
+  <a href="/2020/08/23/web%E5%89%8D%E7%AB%AF%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%B7%AF/" class="archive-article-date">
+  	<time datetime="2020-08-23T07:38:52.453Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-23</time>
+</a>
+  <!-- 需要添加的位置 -->
+  <!-- 开始添加字数统计-->
+  
+  <!-- 添加完成 -->
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="学习路线"><a href="#学习路线" class="headerlink" title="学习路线"></a>学习路线</h1><ol>
+<li>阶段1</li>
+</ol>
+<ul>
+<li>基础三大件: HTML CSS Javascript</li>
+<li>计算机网络基础 TCP/IP协议 Http/Https协议</li>
+<li>数据结构与算法</li>
+<li>互联网的运行原理</li>
+<li>浏览器的运作原理</li>
+</ul>
+<ol start="2">
+<li>阶段2 </li>
+</ol>
+<ul>
+<li>CSS的预处理工具<ul>
+<li>推荐Sass、PostCss.</li>
+</ul>
+</li>
+<li>前端的JS框架<ul>
+<li>推荐React</li>
+<li>推荐Vue3.0(Vue4.0 过段时间可能会发布)</li>
+</ul>
+</li>
+<li>CSS框架<ul>
+<li>推荐 Antd</li>
+<li>推荐 Element UI</li>
+</ul>
+</li>
+<li>CSS优化方案<ul>
+<li>Styled Component</li>
+<li>CSS Modules</li>
+<li>Styled JSX</li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li>阶段3 </li>
+</ol>
+<ul>
+<li>测试<ul>
+<li>单元测试</li>
+<li>集成测试</li>
+<li>E2E测试</li>
+</ul>
+</li>
+<li>代码质量<ul>
+<li>类型校验 TypeScript</li>
+<li>Flow</li>
+</ul>
+</li>
+<li>Linter and Formater <ul>
+<li>推荐Eslint</li>
+</ul>
+</li>
+<li>编码规范<ul>
+<li>javascript Style Guide</li>
+<li>CSS style Guidde</li>
+<li>React Style Guide</li>
+</ul>
+</li>
+<li>性能<ul>
+<li>后续更新</li>
+</ul>
+</li>
+</ul>
+<h1 id="学习的中的一些工具"><a href="#学习的中的一些工具" class="headerlink" title="学习的中的一些工具"></a>学习的中的一些工具</h1><ol>
+<li>任务运行<ul>
+<li>npm script</li>
+</ul>
+</li>
+<li>模块化打包<ul>
+<li>webpack</li>
+<li>rollup</li>
+<li>parcel</li>
+</ul>
+</li>
+<li>Git和GitHub<ul>
+<li>可以查看ProGit官方文档</li>
+</ul>
+</li>
+</ol>
+
+    
+    <!-- 此处添加版权信息 -->
+    < 
+  <div class="declare" hidden="hidden"></div>
+  
+
+  
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2020/08/23/web%E5%89%8D%E7%AB%AF%E8%BF%9B%E9%98%B6%E4%B9%8B%E8%B7%AF/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
 
   
   
@@ -236,15 +454,45 @@
       <footer id="footer">
   <div class="outer">
     <div id="footer-info">
-    	<div class="footer-left">
-    		&copy; 2020 Wubingbing
-    	</div>
-      	<div class="footer-right">
-      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
-      	</div>
+      <div class="footer-left">
+        &copy; 2020 Wubingbing
+        <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+        <script>
+          var now = new Date();
+          function createtime() {
+            var grt = new Date("8/1/2020 12:00:00");//此处修改你的建站时间或者网站上线时间 
+            now.setTime(now.getTime() + 250);
+            days = (now - grt) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+            hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+            if (String(hnum).length == 1) { hnum = "0" + hnum; } minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+            mnum = Math.floor(minutes); if (String(mnum).length == 1) { mnum = "0" + mnum; }
+            seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+            snum = Math.round(seconds); if (String(snum).length == 1) { snum = "0" + snum; }
+            document.getElementById("timeDate").innerHTML = "本站已安全运行 " + dnum + " 天 ";
+            document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+          }
+          setInterval("createtime()", 250);
+        </script>
+      </div>
+      <div class="footer-right">
+
+
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        <span id="busuanzi_container_site_pv">
+          本站总访问量：<span id="busuanzi_value_site_pv"></span>次
+        </span>
+        <span class="post-meta-divider">|</span>
+        <span id="busuanzi_container_site_uv">
+          本站访客数：<span id="busuanzi_value_site_uv"></span>人
+        </span>
+
+
+      </div>
     </div>
   </div>
 </footer>
+<!--页面点击小红心-->
+<script type="text/javascript" src="/love.js"></script>
     </div>
     <script>
 	var yiliaConfig = {
@@ -295,7 +543,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友情链接</a></li>
       
         
       
@@ -324,7 +572,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
         </div>
         <ul class="search-ul">
           <p q-show="jsonFail" style="padding: 20px; font-size: 12px;">
-            缺失模块。<br/>1、请确保node版本大于6.2<br/>2、在博客根目录（注意不是yilia根目录）执行以下命令：<br/> npm i hexo-generator-json-content --save<br/><br/>
+            缺失模块。<br>1、请确保node版本大于6.2<br>2、在博客根目录（注意不是yilia根目录）执行以下命令：<br> npm i hexo-generator-json-content --save<br><br>
             3、在根目录_config.yml里添加配置：
 <pre style="font-size: 12px;" q-show="jsonFail">
   jsonContent:
@@ -368,27 +616,27 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
         <ul class="search-ul">
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
+              <a href="http://localhost:4000/" target="_blank" class="search-title" rel="external nofollow noopener noreferrer"><i class="icon-quo-left icon"></i>友情链接1</a>
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
+              <a href="http://localhost:4000/" target="_blank" class="search-title" rel="external nofollow noopener noreferrer"><i class="icon-quo-left icon"></i>友情链接2</a>
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
+              <a href="http://localhost:4000/" target="_blank" class="search-title" rel="external nofollow noopener noreferrer"><i class="icon-quo-left icon"></i>友情链接3</a>
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
+              <a href="http://localhost:4000/" target="_blank" class="search-title" rel="external nofollow noopener noreferrer"><i class="icon-quo-left icon"></i>友情链接4</a>
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
+              <a href="http://localhost:4000/" target="_blank" class="search-title" rel="external nofollow noopener noreferrer"><i class="icon-quo-left icon"></i>友情链接5</a>
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
+              <a href="http://localhost:4000/" target="_blank" class="search-title" rel="external nofollow noopener noreferrer"><i class="icon-quo-left icon"></i>友情链接6</a>
             </li>
           
         </ul>
@@ -399,7 +647,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">一只菜鸡</div>
   	  	
     	</section>
     
