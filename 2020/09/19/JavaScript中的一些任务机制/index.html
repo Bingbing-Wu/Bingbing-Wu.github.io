@@ -15,14 +15,10 @@
 <meta property="og:site_name" content="BingbingWu-Blog">
 <meta property="og:description" content="JavaScript中的执行机制、任务队列、宏任务和微任务JavaScript是单线程的 JavaScript是单线程的，意味着在同一时间时，只能做一件事情。 JavaScript的只要任务是操作DOM和用户进行交互，这决定了只能是单线程的。假如JavaScript是多线程的，一个线程在进行渲染DOM，而另一个线程在进行的DOM的删除，这必然会带来冲突。JavaScript的单线程已经成为其语言的">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="f:/FronEnd%20documents/数据结构与算法/任务队列.png">
-<meta property="og:image" content="f:/FronEnd%20documents/数据结构与算法/宏任务和微任务.png">
-<meta property="og:image" content="f:/FronEnd%20documents/数据结构与算法/宏任务和微任务的执行流程.png">
 <meta property="article:published_time" content="2020-09-19T01:24:50.000Z">
-<meta property="article:modified_time" content="2020-09-19T02:04:53.060Z">
+<meta property="article:modified_time" content="2020-09-19T02:26:27.858Z">
 <meta property="article:author" content="Wubingbing">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="f:/FronEnd%20documents/数据结构与算法/任务队列.png">
   
     <link rel="alternative" href="/atom.xml" title="BingbingWu-Blog" type="application/atom+xml">
   
@@ -207,18 +203,14 @@
 </ol>
 <h2 id="任务队列-（task-Queue"><a href="#任务队列-（task-Queue" class="headerlink" title="任务队列 （task Queue)"></a>任务队列 （task Queue)</h2><h3 id="在JS中，共有两种任务：同步任务和异步任务"><a href="#在JS中，共有两种任务：同步任务和异步任务" class="headerlink" title="在JS中，共有两种任务：同步任务和异步任务"></a>在JS中，共有两种任务：同步任务和异步任务</h3><ol>
 <li>同步任务进入主线程，等本次任务执行完毕后，在执行下一个任务 </li>
-<li>异步任务：不进入主线程，进入任务队列，只有主线程通知异步任务和执行了，才会按需进行执行。<img src="F:\FronEnd documents\数据结构与算法\任务队列.png" width="50%">
-
-</li>
+<li>异步任务：不进入主线程，进入任务队列，只有主线程通知异步任务和执行了，才会按需进行执行。<br>![avatar](F:\FronEnd documents\数据结构与算法\任务队列.png”)</li>
 </ol>
 <h2 id="JS中的宏任务-macrotask-和微任务-microtask"><a href="#JS中的宏任务-macrotask-和微任务-microtask" class="headerlink" title="JS中的宏任务(macrotask)和微任务(microtask)"></a>JS中的宏任务(macrotask)和微任务(microtask)</h2><h3 id="宏任务-macrotask"><a href="#宏任务-macrotask" class="headerlink" title="宏任务 (macrotask)"></a>宏任务 (macrotask)</h3><ol>
 <li>每次执行栈执行的代码就是一个宏任务</li>
 <li>浏览器对宏任务的执行流程<br>宏任务 –&gt; 网页渲染 –&gt; 宏任务<h3 id="微任务-microtask"><a href="#微任务-microtask" class="headerlink" title="微任务 (microtask)"></a>微任务 (microtask)</h3></li>
 <li>当前任务执行结束后，就立即执行的任务，在当前task任务完成后，下一个task任务开始之前，在渲染之前进行的任务。<br>主要的宏任务有：script脚本、setTimeout、setInterval、I/O、用户界面交互事件 postMessage MessageChannel setImmediate.<br>主要的微任务有：promise.then catch finally process.nextTick(Node环境)、mutationObserver(浏览器使用)</li>
 </ol>
-<img src="F:\FronEnd documents\数据结构与算法\宏任务和微任务.png" width="50%">
-
-<img src="F:\FronEnd documents\数据结构与算法\宏任务和微任务的执行流程.png" width="50%">
+<p>![avatar](F:\FronEnd documents\数据结构与算法\宏任务和微任务.png)<br>![avatar](F:\FronEnd documents\数据结构与算法\宏任务和微任务的执行流程.png)</p>
 
     
     <!-- 此处添加版权信息 -->
