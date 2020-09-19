@@ -17,7 +17,7 @@ tags:
 
 1. 同步任务进入主线程，等本次任务执行完毕后，在执行下一个任务 
 2. 异步任务：不进入主线程，进入任务队列，只有主线程通知异步任务和执行了，才会按需进行执行。
-<img src="F:\FronEnd documents\数据结构与算法\任务队列.png" width="50%">
+![avatar](F:\FronEnd documents\数据结构与算法\任务队列.png")
 
 ## JS中的宏任务(macrotask)和微任务(microtask)
 
@@ -30,6 +30,5 @@ tags:
 主要的宏任务有：script脚本、setTimeout、setInterval、I/O、用户界面交互事件 postMessage MessageChannel setImmediate.
 主要的微任务有：promise.then catch finally process.nextTick(Node环境)、mutationObserver(浏览器使用)
 
-<img src="F:\FronEnd documents\数据结构与算法\宏任务和微任务.png" width="50%">
-
-<img src="F:\FronEnd documents\数据结构与算法\宏任务和微任务的执行流程.png" width="50%">
+![avatar](F:\FronEnd documents\数据结构与算法\宏任务和微任务.png)
+![avatar](F:\FronEnd documents\数据结构与算法\宏任务和微任务的执行流程.png)
